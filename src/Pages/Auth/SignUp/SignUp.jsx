@@ -106,7 +106,7 @@ export default function Signup() {
                             <div className="col-sm-12 px-4">
                              <Link to="/congrats">   <Button size={"sm"}
                                     variant="outline">
-                                    Let me in!
+                                    Join Now!
                                 </Button></Link>
                             </div>
                             <div className="col-sm-12  text-center py-2">
