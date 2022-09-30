@@ -1,0 +1,27 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.button_landing
+{
+    width: auto !important;
+}
+
+.button_landing1
+{
+    background-color: white !important;
+    width: auto !important;
+    border: 1px solid #0575E6 !important;
+    color: #0575E6 !important;
+}
+
+.padding_dashboard
+{
+    padding-top: 9%;
+}
+
+.landing_dashboard
+{
+    font-size: $font-144;
+    color: $lightgray !important;
+    font-weight: $font-weight-500 ;
+}

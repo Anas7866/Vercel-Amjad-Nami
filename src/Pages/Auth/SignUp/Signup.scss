@@ -1,0 +1,143 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.login_height
+{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background_image_signup
+{
+   background-image: url('../../../Assets/Images/banner.png');
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+
+.heading_signup
+{
+    font-size: $font-32;
+    font-family: $font-family;
+    padding-top: 12%;
+    font-weight: $font-weight-400;
+    color: $white;
+}
+
+.heading2_signup
+{
+    font-size: $font-50;
+    font-family: $font-family;
+    font-weight: $font-weight-500;
+    line-height: 115%;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.heading3_signup
+{
+    font-size: $font-28;
+    font-family: $font-family;
+    font-weight: $font-weight-400;
+    line-height: 115%;
+    color: $white;
+}
+
+.heading4_signup
+{
+// padding-top: 5%;
+ color: $blue;
+ font-weight: $font-weight-700 !important;
+ font-size: $font-26;
+}
+
+.heading5_signup
+{
+ font-weight: $font-weight-400 !important;
+ font-size: $font-20;
+ color: $gray;
+}
+
+
+.label_signup
+{
+    font-size: $font-12;
+    color: $gray;
+    font-weight: $font-weight-400 !important;
+}
+
+.join_signup
+{
+    font-size: $font-16;
+    color: $gray;
+    font-weight: $font-weight-400 !important;
+}
+
+.join2_signup
+{
+    font-size: $font-16;
+    color: $blue;
+    font-weight: $font-weight-400 !important;
+}
+
+.privacy_signup
+{
+    font-size: $font-14;
+    color: $gray;
+    font-weight: $font-weight-400 !important;
+}
+
+.term_signup
+{
+    font-size: $font-14;
+    color: $blue;
+    font-weight: $font-weight-400 !important;
+}
+.mob_logo
+{
+    display: none;
+}
+
+
+
+.line_signup
+{
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 980px) {
+    .signup_height
+    {
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+   .background_image_signup
+   {
+  display: none;
+   }
+   .heading4_signup
+    {
+    padding-top: 5%;
+    color: $blue;
+    font-weight: $font-weight-700 !important;
+    font-size: $font-26;
+    }
+    .mob_logo
+        {
+            padding-top: 30% !important;
+            display: block;
+        }
+
+
+
+
+   .mobile_padding_bottom
+   {
+    padding-bottom: 15% !important;
+   }
+  }
