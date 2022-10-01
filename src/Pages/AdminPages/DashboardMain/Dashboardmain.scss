@@ -1,0 +1,254 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.welcome_background
+{
+    background-color: rgba(211, 211, 211, 0.287);
+}
+
+.welcome_text_heading
+{
+    font-size: $font-22;
+    font-weight: $font-weight-400 !important;
+}
+
+.text_welcome_user
+{
+    color: #0575E6;
+}
+
+.button_welcome
+{
+    width: auto !important;
+}
+
+#icon_size_welcome
+{
+    font-size: 13px !important;
+}
+
+.card_border
+{
+    border: 1px solid #B9B9B9;
+    border-radius: 8px;
+}
+
+.font_transection_card
+{
+    font-size: $font-40;
+    color: #0575E6;
+    font-weight: $font-weight-600;
+}
+
+.font_transection_card_subheading
+{
+    font-size: $font-17;
+    color: gray;
+    font-weight: $font-weight-400;
+}
+
+.backgroud_opportunities
+{
+    background-color: #0576e619;
+    
+}
+
+.border_card_opportunities
+{
+    border: 1px solid #0575E6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.text_card_color_opportunities
+{
+    color: #767676;
+    font-size: $font-14;
+    font-weight: $font-weight-700;
+}
+
+.text_card_color_opportunities1
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+}
+.text_card_color_opportunities2
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-700;
+}
+
+.text_card_color_opportunities3
+{
+    color: #0575E6;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+}
+
+
+.border_card_opportunities_internal
+{
+    border-right: 3px solid lightgray;
+}
+
+#iconopportunities
+{
+    color: #0575E6;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+}
+
+.text_color_pormoted
+{
+    color: #0575E6;
+    font-size: $font-18;
+    font-weight: $font-weight-700;
+}
+
+.text_card_color_opportunities5
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-300;
+}
+
+.text_card_color_opportunities5
+{
+    color: #0575E6;
+    font-size: $font-24;
+    font-weight: $font-weight-400;
+}
+
+.border_bottom_investor
+{
+    border-bottom: 1px solid #B9B9B9;
+}
+
+.bussiness_heading
+{
+    color: #0575E6;
+    font-size: $font-18;
+    font-weight: $font-weight-500;
+}
+
+.border_bussinesscard
+{
+    border: 1px solid #0575E6;
+    border-radius: 10px;
+}
+
+.card_text_bussiness
+{
+    color: #767676;
+    font-size: $font-14;
+    font-weight: $font-weight-700;
+}
+
+
+.card_text_small_bussiness
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+}
+
+.card_text_small_bussiness1
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+    line-height: 18px;
+}
+
+.card_text_small_bussiness_target
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-400;
+
+}
+
+.border_left_card_internal
+{
+    border-left: 3px solid lightgray;
+}
+
+.custom_padding_bussiness
+{
+    padding-left: 3.5%;
+}
+
+.card_text_small_bussiness_target1
+{
+    color: #767676;
+    font-size: $font-12;
+    font-weight: $font-weight-700;
+}
+
+.font_bussiness_button
+{
+    font-size: $font-14;
+    font-weight: $font-weight-500;
+}
+
+.font_bussiness_button2
+{
+    font-size: $font-14;
+    font-weight: $font-weight-500;
+    color: #0575E6;
+    border: 1px solid #0575E6;
+    background-color: white;
+}
+
+.background_footer
+{
+    background-color: rgba(211, 211, 211, 0.287);
+}
+
+.heading_font_footer
+{
+    font-size: $font-14;
+    font-weight: $font-weight-500;
+    color: #0575E6;
+}
+.heading_font_footer1
+{
+    font-size: $font-14;
+    font-weight: $font-weight-500;
+    color: #000000;
+}
+
+#color_icon_footer
+{
+    color: #0575E6;
+}
+
+.heading_font_footer3
+{
+    font-size: $font-14;
+    font-weight: $font-weight-600;
+    color: #0575E6;
+}
+
+.heading_font_footer4
+{
+    font-size: $font-14;
+    font-weight: $font-weight-600;
+    color: #000000;
+}
+
+.heading_font_footer_copyright
+{
+    font-size: $font-15;
+    font-weight: $font-weight-400;
+    color: #1E2833;
+}
+
+.heading_font_footer_copyright1
+{
+    font-size: $font-15;
+    font-weight: $font-weight-400;
+    color: #000000;
+}

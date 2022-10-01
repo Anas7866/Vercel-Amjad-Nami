@@ -101,10 +101,10 @@ export default function Login(props) {
                                 <InputField placeholder="..........." type="password"/>
                             </div>
                             <div className="col-sm-12 px-4">
-                                <Button size={"sm"}
+                            <Link to="/dashboard" className="link_decoration">  <Button size={"sm"}
                                     variant="outline">
                                     Let me in!
-                                </Button>
+                                </Button> </Link>
                             </div>
                             <div className="col-sm-12 mobile_padding_bottom text-center py-2">
                                 <span className="join_login">

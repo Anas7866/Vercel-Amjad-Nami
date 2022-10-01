@@ -36,6 +36,12 @@ const routes = [
     ispublic: true,
     exact: true,
   },
+  {
+    path: "/dashboard",
+    component: lazy(() => fakeDelay(delayTime)(import("../Pages/AdminPages/DashboardMain/Dashboardmain"))),
+    ispublic: true,
+    exact: true,
+  },
   // { path: '/*', component: Error404, role: [1, 3, 4, 5] }
 ];
 

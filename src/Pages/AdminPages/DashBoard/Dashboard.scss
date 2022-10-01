@@ -28,18 +28,18 @@
 
 @media screen and (max-width:1000px) {
     
-.landing_dashboard
-{
-    font-size: $font-28;
-    color: $lightgray !important;
-    font-weight: $font-weight-500 ;
-    padding-right: 29px !important;
-    padding-top: 10px;
-}
-.padding_dashboard
-{
-    padding-top: 79%;
-    overflow: hidden ;
-    padding-left: 7%;
-}
-}
+    .landing_dashboard
+    {
+        font-size: $font-28;
+        color: $lightgray !important;
+        font-weight: $font-weight-500 ;
+        padding-right: 29px !important;
+        padding-top: 10px;
+    }
+    .padding_dashboard
+    {
+        padding-top: 79%;
+        overflow: hidden ;
+        padding-left: 7%;
+    }
+    }
